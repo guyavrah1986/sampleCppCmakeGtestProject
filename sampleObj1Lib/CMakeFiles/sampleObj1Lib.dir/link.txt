@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsampleObj1Lib.a  CMakeFiles/sampleObj1Lib.dir/sampleObj1.cpp.o
+/usr/bin/ranlib libsampleObj1Lib.a

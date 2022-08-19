@@ -1,15 +1,12 @@
 # CMakeLists.txt file for the main application (executable)
+# =========================================================
 
 set(exeName "mainApplication")
 
 message(STATUS "CMakeLists.txt of ${exeName} executable")
 
-
-# add the sampleObj1Lib library
-add_subdirectory(sampleObj1Lib)
-
 # add the executable
-add_executable(${exeName} main.cxx)
+add_executable(${exeName} main.cpp)
 
 target_link_libraries(${exeName} PUBLIC sampleObj1Lib)
 
