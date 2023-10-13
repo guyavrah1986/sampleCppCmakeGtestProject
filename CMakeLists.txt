@@ -8,8 +8,8 @@ project(sampleProject)
 message(STATUS "main CMakeLists.txt of ${CMAKE_PROJECT_NAME}")
 
 set(CMAKE_CXX_STANDARD 14)
-set (CMAKE_CXX_FLAGS "-m32")
-set (CMAKE_C_FLAGS "-m32")
+set(CMAKE_CXX_FLAGS "-m32")
+set(CMAKE_C_FLAGS "-m32")
 
 include_directories(src)
 
